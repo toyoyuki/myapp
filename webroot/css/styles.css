@@ -79,3 +79,9 @@ button {
   font-size: 12px;
   color: red;
 }
+
+/* 追加 */
+.required label:after {
+  color: red;
+  content: '*';
+}
